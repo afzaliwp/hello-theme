@@ -211,16 +211,16 @@ function hello_get_footer_display() {
 }
 
 /**
- * Add Hello Elementor theme Header & Footer to Experiments.
+ * Add MentorX Theme theme Header & Footer to Experiments.
  */
 add_action( 'elementor/experiments/default-features-registered', function( \Elementor\Core\Experiments\Manager $experiments_manager ) {
 	$experiments_manager->add_feature( [
 		'name' => 'hello-theme-header-footer',
 		'title' => esc_html__( 'Header & Footer', 'hello-elementor' ),
-		'tag' => esc_html__( 'Hello Theme', 'hello-elementor' ),
+		'tag' => esc_html__( 'MentorX Theme', 'hello-elementor' ),
 		'description' => sprintf(
 			'%1$s <a href="%2$s" target="_blank">%3$s</a>',
-			esc_html__( 'Customize and style the builtin Hello Theme’s cross-site header & footer from the Elementor "Site Settings" panel.', 'hello-elementor' ),
+			esc_html__( 'Customize and style the builtin MentorX Theme’s cross-site header & footer from the Elementor "Site Settings" panel.', 'hello-elementor' ),
 			'https://go.elementor.com/wp-dash-header-footer',
 			esc_html__( 'Learn More', 'hello-elementor' )
 		),

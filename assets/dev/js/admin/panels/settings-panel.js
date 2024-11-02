@@ -7,7 +7,7 @@ export const SettingsPanel = ( { SETTINGS, settingsData, updateSettings } ) => {
 	const prefix = protocol + '//' + hostname;
 
 	return (
-		<PanelBody title={ __( 'Hello Theme Settings', 'hello-elementor' ) } >
+		<PanelBody title={ __( 'MentorX Theme Settings', 'hello-elementor' ) } >
 
 			<Notice status="warning" isDismissible="false">
 				<Dashicon icon="flag" />
@@ -49,19 +49,19 @@ export const SettingsPanel = ( { SETTINGS, settingsData, updateSettings } ) => {
 
 			<ToggleControl
 				label={ __( 'Unregister Hello style.css', 'hello-elementor' ) }
-				help={ __( "Disable Hello theme's style.css file which contains CSS reset rules for unified cross-browser view.", 'hello-elementor' ) }
+				help={ __( "Disable MentorX Theme's style.css file which contains CSS reset rules for unified cross-browser view.", 'hello-elementor' ) }
 				checked={ !! settingsData[ SETTINGS.HELLO_STYLE ] || false }
 				onChange={ ( value ) => updateSettings( SETTINGS.HELLO_STYLE, value ) }
 			/>
-			<code className="code-example"> &lt;link rel=&quot;stylesheet&quot; href=&quot;{ prefix }/wp-content/themes/hello-elementor/style.min.css&quot; /&gt; </code>
+			<code className="code-example"> &lt;link rel=&quot;stylesheet&quot; href=&quot;{ prefix }/wp-content/themes/afzaliwp-theme/style.min.css&quot; /&gt; </code>
 
 			<ToggleControl
-				label={ __( 'Unregister Hello theme.css', 'hello-elementor' ) }
-				help={ __( "Disable Hello theme's theme.css file which contains CSS rules that style WordPress elements.", 'hello-elementor' ) }
+				label={ __( 'Unregister MentorX Theme.css', 'hello-elementor' ) }
+				help={ __( "Disable MentorX Theme's theme.css file which contains CSS rules that style WordPress elements.", 'hello-elementor' ) }
 				checked={ !! settingsData[ SETTINGS.HELLO_THEME ] || false }
 				onChange={ ( value ) => updateSettings( SETTINGS.HELLO_THEME, value ) }
 			/>
-			<code className="code-example"> &lt;link rel=&quot;stylesheet&quot; href=&quot;{ prefix }/wp-content/themes/hello-elementor/theme.min.css&quot; /&gt; </code>
+			<code className="code-example"> &lt;link rel=&quot;stylesheet&quot; href=&quot;{ prefix }/wp-content/themes/afzaliwp-theme/theme.min.css&quot; /&gt; </code>
 
 		</PanelBody>
 	);

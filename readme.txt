@@ -1,4 +1,4 @@
-=== Hello Elementor ===
+=== MentorX Theme ===
 
 Contributors: elemntor, KingYes, ariel.k, bainternet
 Requires at least: 6.0
@@ -13,7 +13,7 @@ A lightweight and minimalist WordPress theme for Elementor site builder.
 
 == Description ==
 
-Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website.
+MentorX Theme is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website.
 
 The theme's main focus is on providing a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. It is optimized for speed and performance, and its simplicity and flexibility make it a great choice for both beginners and experienced website designers.
 
@@ -24,7 +24,7 @@ The theme supports common WordPress features which can be extended using a child
 This theme, like WordPress, is distributed under the terms of GPL.
 Use it as your springboard to building a site with ***Elementor***.
 
-Hello Elementor bundles the following third-party resources:
+MentorX Theme bundles the following third-party resources:
 
 Font Awesome icons for theme screenshot
 License: SIL Open Font License, version 1.1.
@@ -86,7 +86,7 @@ Source: https://stocksnap.io/photo/4B83RD7BV9
 * Tweak: Remove unused JS code from the frontend
 * Tweak: Remove unused CSS code from the editor
 * Tweak: Remove unnecessary `role` attributes from HTML landmark elements
-* Tweak: Link from Elementor Site Settings to Hello Theme Settings
+* Tweak: Link from Elementor Site Settings to MentorX Theme Settings
 * Fix: Dynamic script version for better caching
 
 = 2.9.0 - 2023-10-25 =
@@ -95,7 +95,7 @@ Source: https://stocksnap.io/photo/4B83RD7BV9
 * New: Option to disable skip link
 * New: Option to disable page title
 * New: Option to unregister Hello style.css
-* New: Option to unregister Hello theme.css
+* New: Option to unregister MentorX Theme.css
 * Tweak: Update `Requires at least 6.0`
 * Tweak: Update `Tested up to 6.3`
 
@@ -161,7 +161,7 @@ Source: https://stocksnap.io/photo/4B83RD7BV9
 * Fix: Fatal error when kit doesn't exist or needs to be recreated ([#175](https://github.com/elementor/hello-theme/issues/175))
 
 = 2.5.0 - 2022-01-26 =
-* Tweak: Added keyboard navigation to Hello Elementor theme menus
+* Tweak: Added keyboard navigation to MentorX Theme theme menus
 * Tweak: Added Skip Links and `#content` for the main wrapper for better accessibility ([#133](https://github.com/elementor/hello-theme/issues/133))
 * Tweak: Added underline for text links in Post Content for better accessibility
 * Tweak: Removed `outline: none` from inputs for better accessibility
@@ -170,11 +170,11 @@ Source: https://stocksnap.io/photo/4B83RD7BV9
 = 2.4.2 - 2021-12-20 =
 * Tweak: Use HTTPS in XFN profile link to prevent mixed content error ([Topic](https://wordpress.org/support/topic/url-scheme-in-xfn-profile-link/))
 * Tweak: Remove comments in `style.min.css` output ([#179](https://github.com/elementor/hello-theme/issues/179))
-* Tweak: Promoted Hello Elementor theme Header & Footer experiment status to Stable
+* Tweak: Promoted MentorX Theme theme Header & Footer experiment status to Stable
 * Tweak: Added compatibility for upcoming WordPress version 5.9
 
 = 2.4.1 - 2021-07-07 =
-* Fix: Hello Elementor theme Header & Footer experiment should be inactive for existing sites
+* Fix: MentorX Theme theme Header & Footer experiment should be inactive for existing sites
 
 = 2.4.0 - 2021-06-29 =
 * New: Introducing Header and Footer site elements as an Elementor Experiment
@@ -236,7 +236,7 @@ Source: https://stocksnap.io/photo/4B83RD7BV9
 * Fix: Minified `style.css` for better optimization
 
 = 2.0.5 - 2019-05-21 =
-* New: Introducing [Hello Theme Child](https://github.com/elementor/hello-theme-child)
+* New: Introducing [MentorX Theme Child](https://github.com/elementor/hello-theme-child)
 * Tweak: Enqueue only parent theme stylesheet
 * Tweak: Added admin notice box for recommending Elementor plugin
 

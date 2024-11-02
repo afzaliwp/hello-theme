@@ -15,7 +15,7 @@ function hello_elementor_settings_page() {
 	$menu_hook = '';
 
 	$menu_hook = add_theme_page(
-		esc_html__( 'Hello Theme Settings', 'hello-elementor' ),
+		esc_html__( 'MentorX Theme Settings', 'hello-elementor' ),
 		esc_html__( 'Theme Settings', 'hello-elementor' ),
 		'manage_options',
 		'hello-theme-settings',

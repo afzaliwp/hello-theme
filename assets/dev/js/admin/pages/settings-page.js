@@ -115,7 +115,7 @@ export const SettingsPage = () => {
 			<div className="hello_elementor__header">
 				<div className="hello_elementor__container">
 					<div className="hello_elementor__title">
-						<h1>{ __( 'Hello Theme Settings', 'hello-elementor' ) }</h1>
+						<h1>{ __( 'MentorX Theme Settings', 'hello-elementor' ) }</h1>
 					</div>
 				</div>
 			</div>

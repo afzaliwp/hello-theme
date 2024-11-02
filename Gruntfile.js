@@ -1,5 +1,5 @@
 /**
- * Hello Elementor theme Makefile
+ * MentorX Theme theme Makefile
  */
 'use strict';
 

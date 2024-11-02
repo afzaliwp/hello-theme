@@ -30,7 +30,7 @@ function hello_elementor_fail_load_admin_notice() {
 
 	$is_elementor_installed = isset( $installed_plugins[ $plugin ] );
 
-	$message = esc_html__( 'The Hello Theme is a lightweight starter theme that works perfectly with the Elementor award-winning site builder plugin.', 'hello-elementor' );
+	$message = esc_html__( 'The MentorX Theme is a lightweight starter theme that works perfectly with the Elementor award-winning site builder plugin.', 'hello-elementor' );
 
 	if ( $is_elementor_installed ) {
 		if ( ! current_user_can( 'activate_plugins' ) ) {
@@ -132,7 +132,7 @@ function hello_elementor_fail_load_admin_notice() {
 			<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/elementor-notice-icon.svg' ); ?>" alt="<?php echo esc_attr__( 'Get Elementor', 'hello-elementor' ); ?>" />
 		</div>
 		<div class="hello-elementor-notice-content">
-			<h3><?php echo esc_html__( 'Thanks for installing the Hello Theme!', 'hello-elementor' ); ?></h3>
+			<h3><?php echo esc_html__( 'Thanks for installing the MentorX Theme!', 'hello-elementor' ); ?></h3>
 			<p><?php echo esc_html( $message ); ?></p>
 			<a class="hello-elementor-information-link" href="https://go.elementor.com/hello-theme-learn/" target="_blank"><?php echo esc_html__( 'Explore Elementor Site Builder Plugin', 'hello-elementor' ); ?></a>
 			<a class="hello-elementor-install-button" href="<?php echo esc_attr( $button_link ); ?>"><?php echo esc_html( $button_text ); ?></a>

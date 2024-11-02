@@ -19,7 +19,7 @@ class Settings_Header extends Tab_Base {
 	}
 
 	public function get_title() {
-		return esc_html__( 'Hello Theme Header', 'hello-elementor' );
+		return esc_html__( 'MentorX Theme Header', 'hello-elementor' );
 	}
 
 	public function get_icon() {
